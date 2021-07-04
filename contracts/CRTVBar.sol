@@ -12,7 +12,7 @@ contract CreativeBar is ERC20("CreativeBar", "xCRTV"){
     using SafeMath for uint256;
     IERC20 public crtv;
 
-    constructor(IERC20 crtv) public {
+    constructor(IERC20 _crtv) public {
         crtv = _crtv;
     }
 
